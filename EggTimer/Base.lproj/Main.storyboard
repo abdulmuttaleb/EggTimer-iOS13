@@ -123,7 +123,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-th-c5K" userLabel="Timer View">
                                         <rect key="frame" x="0.0" y="571.5" width="374" height="246.5"/>
                                         <subviews>
-                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aXg-8C-oiK">
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aXg-8C-oiK">
                                                 <rect key="frame" x="0.0" y="120.5" width="374" height="5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="5" id="21h-74-L6D"/>
@@ -152,6 +152,7 @@
                     </view>
                     <connections>
                         <outlet property="progressBar" destination="aXg-8C-oiK" id="BD6-Zd-xGz"/>
+                        <outlet property="titleView" destination="XLm-5r-pSP" id="GHQ-xb-RF8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
